@@ -7,16 +7,19 @@ export const useTestimonial = () => {
     const [isLoading, setIsLoading] = useState(false);
     useEffect(() => {
         setIsLoading(true);
-        axios.get(GET_TESTIMONIAL_URL)
-            .then((response) => {
-                setIsLoading(false);
-                console.log("API Call Success", response.data.data);
-                setTestimonials(response.data.data);
-            }).catch((error) => {
-                setIsLoading(false);
-                console.log("API Call Fail", error);
-                setTestimonials([]);
-            });
+        // To mock API response load time
+        setTimeout(() => {
+            axios.get(GET_TESTIMONIAL_URL)
+                .then((response) => {
+                    setIsLoading(false);
+                    console.log("API Call Success", response.data.data);
+                    setTestimonials(response.data.data);
+                }).catch((error) => {
+                    setIsLoading(false);
+                    console.log("API Call Fail", error);
+                    setTestimonials([]);
+                });
+        }, 2500);
     }, []);
 
     return { testimonials, isLoading }

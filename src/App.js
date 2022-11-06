@@ -22,7 +22,7 @@ function App() {
       <ContactAreaSection />
 
       <Footer />
-      <a className="back-to-top" href="#"><i className="lni-chevron-up" /></a>
+      <a className="back-to-top" href="/#"><i className="lni-chevron-up" /></a>
 
     </div>
   );

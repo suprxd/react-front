@@ -11,7 +11,7 @@ export const HeroSection = () => {
                             <p className="text">A simple, customizable, and, beautiful SaaS business focused landing page to
                                 make your project closer to launch!</p>
                             <ul className="header-btn rounded-buttons">
-                                <li><a className="main-btn rounded-three" href="#">GET IN TOUCH</a></li>
+                                <li><a className="main-btn rounded-three" href="/#">GET IN TOUCH</a></li>
                                 <li><a className="main-btn rounded-four video-popup" href="../../watch.html?v=r44RKWyfcFw">WATCH THE VIDEO <i className="lni-play" /></a></li>
                             </ul>
                         </div>

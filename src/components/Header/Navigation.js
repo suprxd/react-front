@@ -7,7 +7,7 @@ export const HeaderNavigation = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <nav className="navbar navbar-expand-lg">
-                            <a className="navbar-brand" href="#">
+                            <a className="navbar-brand" href="/#">
                                 <img src="assets/images/logo.svg" alt="Logo" />
                             </a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@ export const HeaderNavigation = () => {
                             <div className="navbar-social d-none d-sm-flex align-items-center">
                                 <span>FOLLOW US</span>
                                 <ul>
-                                    <li><a href="#"><i className="lni-facebook-filled" /></a></li>
-                                    <li><a href="#"><i className="lni-twitter-original" /></a></li>
-                                    <li><a href="#"><i className="lni-instagram-original" /></a></li>
-                                    <li><a href="#"><i className="lni-linkedin-original" /></a></li>
+                                    <li><a href="/#"><i className="lni-facebook-filled" /></a></li>
+                                    <li><a href="/#"><i className="lni-twitter-original" /></a></li>
+                                    <li><a href="/#"><i className="lni-instagram-original" /></a></li>
+                                    <li><a href="/#"><i className="lni-linkedin-original" /></a></li>
                                 </ul>
                             </div>
                         </nav>

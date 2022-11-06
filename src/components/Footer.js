@@ -11,10 +11,10 @@ export const Footer = () => {
                                 <div className="footer-logo d-flex align-items-end">
                                     <a className="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo" /></a>
                                     <ul className="social mt-30">
-                                        <li><a href="#"><i className="lni-facebook-filled" /></a></li>
-                                        <li><a href="#"><i className="lni-twitter-original" /></a></li>
-                                        <li><a href="#"><i className="lni-instagram-original" /></a></li>
-                                        <li><a href="#"><i className="lni-linkedin-original" /></a></li>
+                                        <li><a href="/#"><i className="lni-facebook-filled" /></a></li>
+                                        <li><a href="/#"><i className="lni-twitter-original" /></a></li>
+                                        <li><a href="/#"><i className="lni-instagram-original" /></a></li>
+                                        <li><a href="/#"><i className="lni-linkedin-original" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -25,9 +25,9 @@ export const Footer = () => {
                             <div className="footer-link">
                                 <h6 className="footer-title">Company</h6>
                                 <ul>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Career</a></li>
+                                    <li><a href="/#">About</a></li>
+                                    <li><a href="/#">Contact</a></li>
+                                    <li><a href="/#">Career</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -35,9 +35,9 @@ export const Footer = () => {
                             <div className="footer-link">
                                 <h6 className="footer-title">Product &amp; Services</h6>
                                 <ul>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Developer</a></li>
+                                    <li><a href="/#">Products</a></li>
+                                    <li><a href="/#">Business</a></li>
+                                    <li><a href="/#">Developer</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,9 +45,9 @@ export const Footer = () => {
                             <div className="footer-link">
                                 <h6 className="footer-title">Help &amp; Suuport</h6>
                                 <ul>
-                                    <li><a href="#">Support Center</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
+                                    <li><a href="/#">Support Center</a></li>
+                                    <li><a href="/#">FAQ</a></li>
+                                    <li><a href="/#">Terms &amp; Conditions</a></li>
                                 </ul>
                             </div>
                         </div>

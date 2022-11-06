@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "authorName": "Isabela Moreira",
+        "description": "Stop wasting your time and money designing and managing a website that doesn't get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn't get results. Happiness guaranteed!",
+        "subTitle": "CEO, GrayGrids",
+        "imageName": "author-3"
+    },
+    {
+        "id": 2,
+        "authorName": "Fiona",
+        "description": "Stop wasting my time and money designing and managing a website that doesn't get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn't get results. Happiness guaranteed!",
+        "subTitle": "Lead Designer, UIdeck",
+        "imageName": "author-1"
+    },
+    {
+        "id": 3,
+        "authorName": "Elon Musk",
+        "description": "Stop wasting someone time and money designing and managing a website that doesn't get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn't get results. Happiness guaranteed!",
+        "subTitle": "CEO, SpaceX",
+        "imageName": "author-2"
+    },
+    {
+        "id": 4,
+        "authorName": "Fajar Siddiq",
+        "description": "Stop wasting someone time and money designing and managing a website that doesn't get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn't get results. Happiness guaranteed!",
+        "subTitle": "CEO, MakerFlix",
+        "imageName": "author-4"
+    }
+
+]

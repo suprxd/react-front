@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { ClientLogoSection } from './components/ClientLogoSection';
+import { ContactAreaSection } from './components/ContactAreaSection';
+import { Testimonial } from './components/Testimonial';
+import {CallToActionSection} from './components/CallToActionSection';
+import { PricingAreaSection } from './components/PricingAreaSection';
+import { ServicesAreaSection } from './components/ServicesAreaSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header />
+
+      <ServicesAreaSection />
+      <PricingAreaSection />
+      <CallToActionSection />
+      <Testimonial />
+      <ClientLogoSection />
+      <ContactAreaSection />
+
+      <Footer />
+      <a className="back-to-top" href="#"><i className="lni-chevron-up" /></a>
+
     </div>
   );
 }
